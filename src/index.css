@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom Styles */
+
+
+@layer components {
+
+input[type=range]::-webkit-slider-thumb {
+ 
+
+   width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: white;
+  border-color: white;
+  background:#67E8F9
+  
+}
+
+
+input[type=range]{
+
+ 
+  border-radius: 8px;
+
+
+  outline: none;
+
+  -webkit-appearance: none;
+}
+
+
+}
