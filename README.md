@@ -104,7 +104,7 @@ To get a better idea about this project, follow my instructions (How to use?)
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@NGReddy5613](https://twitter.com/NGReddy5613) - gangadhar.5613@gmail.com
+Gangadhar - [@NGReddy5613](https://twitter.com/NGReddy5613) - gangadhar.5613@gmail.com
 
 Project Link: [https://github.com/gangadhar5613/intellect-task](https://github.com/gangadhar5613/intellect-task)
 
