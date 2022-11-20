@@ -36,4 +36,23 @@ input[type=range]{
 }
 
 
+.traingle-down{
+ 
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-top: 48px solid rgb(148 163 184 / var(--tw-bg-opacity));;
+  /* border-radius: 0 0 10px 0; */
+
+
+}
+.traingle-down-white{
+ 
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-top: 48px solid white
+  /* border-radius: 0 0 10px 0; */
+
+
+}
+
 }

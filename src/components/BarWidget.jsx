@@ -23,32 +23,29 @@ function BarWidget(props)
             onClick={(event) => onLevelChange("high")}
             className={`high-4 ${
               high ? "bg-white" : "bg-slate-400"
-            }  shadow-xl rounded-lg  cursor-pointer rounded-b-xl    w-60  h-10`}
+            }  shadow-xl rounded-lg  cursor-pointer rounded-b-xl   w-56   h-9`}
           ></div>
           <div
             onClick={(event) => onLevelChange("medium1")}
             className={`high-3  ${
               medium1 ? "bg-white" : "bg-slate-400"
-            }  shadow-xl  rounded-lg  cursor-pointer rounded-b-xl  w-52 h-10`}
+            }  shadow-xl  rounded-lg  cursor-pointer rounded-b-xl  w-48 h-9`}
           ></div>
           <div
             onClick={(event) => onLevelChange("medium2")}
             className={`high-2 ${
               medium2 ? "bg-white" : "bg-slate-400"
-            }   shadow-xl rounded-lg  cursor-pointer rounded-b-xl  w-44 h-10`}
+            }   shadow-xl rounded-lg  cursor-pointer rounded-b-xl   w-40 h-9`}
           ></div>
           <div
             onClick={(event) => onLevelChange("low1")}
             className={`high-4 ${
               low1 ? "bg-white" : "bg-slate-400"
-            }   shadow-xl rounded-lg  cursor-pointer rounded-b-xl   w-28 h-10`}
+            }   shadow-xl rounded-lg  cursor-pointer rounded-b-xl   w-28 h-9`}
           ></div>
           <div
             onClick={(event) => onLevelChange("low2")}
-            id="traingle-down"
-            className={`high-1 ${
-              low2 ? "bg-white" : "bg-slate-400"
-            } w-12  shadow-xl  cursor-pointer rounded-b-2xl rounded-t-xl   h-16 `}
+            className={`high-1  w-8  rounded-b-md cursor-pointer ${ low2 ? 'traingle-down-white' : 'traingle-down'}  rounded-t-xl   h-9 `}
           ></div>
         </div>
       </section>
